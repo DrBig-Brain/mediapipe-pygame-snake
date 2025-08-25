@@ -20,7 +20,13 @@ A modern take on the classic Snake game where you control the snake using hand g
 - Pygame
 - MediaPipe
 
-Install the required dependencies:
+You can install all required dependencies using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install individual packages manually:
 
 ```bash
 pip install opencv-python pygame mediapipe
@@ -32,6 +38,8 @@ pip install opencv-python pygame mediapipe
 - `snake.py` - Snake game logic implementation
 - `hand_tracker.py` - Hand gesture detection using MediaPipe
 - `utils.py` - Utility functions for gesture processing
+- `requirements.txt` - List of Python dependencies
+
 
 ## 🎯 Features
 
